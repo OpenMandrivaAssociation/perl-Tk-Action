@@ -18,6 +18,7 @@ BuildRequires: perl(MooseX::Has::Sugar)
 BuildRequires: perl(MooseX::SemiAffordanceAccessor)
 BuildRequires: perl(Test::More)
 BuildRequires: perl(Tk::Sugar)
+BuildRequires: perl(Module::Build)
 
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
