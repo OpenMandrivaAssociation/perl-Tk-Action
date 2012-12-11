@@ -56,3 +56,18 @@ rm -rf %{buildroot}
 %perl_vendorlib/*
 
 
+
+
+%changelog
+* Mon Apr 18 2011 Funda Wang <fwang@mandriva.org> 1.93.390-2mdv2011.0
++ Revision: 654825
+- add br
+- rebuild for updated spec-helper
+
+* Sun Dec 06 2009 Jérôme Quelin <jquelin@mandriva.org> 1.93.390-1mdv2011.0
++ Revision: 474056
+- import perl-Tk-Action
+
+
+* Sun Dec 06 2009 cpan2dist 1.093390-1mdv
+- initial mdv release, generated with cpan2dist
